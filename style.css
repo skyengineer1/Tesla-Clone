@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-image: url(images/tesla.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+div.sticky {
+    position: sticky;
+    top: 0;
+    background-color: black;
+    color: red;
+    padding: 1.2em;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+span {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* NAVBAR */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img.logo {
+    width: 15em;
+    height: 2em;
+    cursor: pointer;
+}
+
+ul {
+    width: 40em;
+    margin: auto;
+    display: flex;
+    gap: 2em;
+}
+
+li a {
+    color: red;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+div.right-side {
+    margin-right: 2em;
+    display: flex;
+    gap: 2em;
+}
+
+i {
+    font-size: 1.6em;
+    cursor: pointer;
+}
+
+main {
+    width: 50em;
+    margin: auto;
+    margin-top: 5em;
+    color: red;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+div.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+}
+
+button.model3 {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 1em 2em;
+    border-radius: 0.3em;
+    font-weight: bold;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+button.model-y {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 1em 2em;
+    border-radius: 0.3em;
+    font-weight: bold;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(215, 0, 0);
+}
+
+button:active {
+    background-color: rgb(200, 0, 0);
+}
